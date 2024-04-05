@@ -1,0 +1,9 @@
+menu "LibOgg Configuration"
+
+    config OGG_USE_SPIRAM
+        bool "Use External RAM for OGG"
+        default n
+        help
+            Use external SPI RAM for malloc in OGG packetizer
+
+endmenu
